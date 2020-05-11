@@ -1,0 +1,34 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Scooby {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		Scanner SC = new Scanner(new File("scooby.dat"));
+		
+		int run = SC.nextInt();
+		SC.nextLine();
+		for (int i = 0; i < run; i++) {
+			String paths = SC.nextLine();
+			String check = SC.nextLine();
+			checkPath(paths, check);
+		}
+	}
+	
+	public static void checkPath(String lPaths, String lCheck) {
+		String[] Paths = lPaths.split(" ");
+		ArrayList<String> Temp = new ArrayList<String>();
+		for (String s1 : Paths) {
+			String[] Break = s1.split("");
+			for (String s2 : Break) {
+				if(!Temp.contains(s2))
+					Temp.add(s2);
+			}
+		}
+		boolean[][] table = new boolean[Temp.size()][Temp.size()];
+		System.out.println(Temp.size());
+	}
+
+}

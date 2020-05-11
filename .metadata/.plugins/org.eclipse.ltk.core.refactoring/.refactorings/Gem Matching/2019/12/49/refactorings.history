@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;StdDraw.java&apos; to &apos;Star Field/src&apos;&#x0A;- Original project: &apos;Gem Matching&apos;&#x0A;- Destination element: &apos;Star Field/src&apos;&#x0A;- Original element: &apos;StdDraw.java&apos;" description="Copy compilation unit" destination="=Star Field/src" element1="/src&lt;{StdDraw.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1575652861741" units="1" version="1.0"/>
+</session>

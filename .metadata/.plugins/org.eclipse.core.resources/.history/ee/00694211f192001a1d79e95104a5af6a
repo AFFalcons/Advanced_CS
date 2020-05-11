@@ -1,0 +1,11 @@
+import java.io.File;
+import java.util.Scanner;
+
+public class Play {
+
+	public static void main(String[] args) {
+		Scanner SC = new Scanner(new File("play.dat"));
+		int cases = SC.nextInt();
+	}
+
+}
